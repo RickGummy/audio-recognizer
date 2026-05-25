@@ -1,2 +1,2 @@
 # audio recognizer
-c++ engine
+c++ mini shazam engine
