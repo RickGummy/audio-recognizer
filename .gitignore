@@ -3,3 +3,5 @@ build/
 *.out
 *.exe
 .DS_Store
+
+audio_recognition_engine.md
