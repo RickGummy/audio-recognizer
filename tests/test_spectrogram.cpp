@@ -68,7 +68,7 @@ static void test_time_axis() {
   const int N = 44100;
 
   std::vector<double> samples(N, 0.0);
-  auto spec = cmopute_spectrogram(samples, sample_rate, window_size, hop_size);
+  auto spec = compute_spectrogram(samples, sample_rate, window_size, hop_size);
 
   assert(spec.size() >= 2);
 

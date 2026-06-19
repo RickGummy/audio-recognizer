@@ -11,3 +11,7 @@ enable_testing()
 add_executable(test_fft tests/test_fft.cpp src/dsp/fft.cpp)
 target_include_directories(test_fft PRIVATE src)
 add_test(NAME test_fft COMMAND test_fft)
+
+add_executable(test_spectrogram tests/test_spectrogram.cpp src/dsp/spectrogram.cpp src/dsp/fft.cpp)
+target_include_directories(test_spectrogram PRIVATE src)
+add_test(NAME test_spectrogram COMMAND test_spectrogram)
